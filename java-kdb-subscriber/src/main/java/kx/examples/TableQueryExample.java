@@ -1,4 +1,4 @@
-package com.timestored.kdb.examples;
+package kx.examples;
 
 import java.awt.BorderLayout;
 import java.awt.Color;

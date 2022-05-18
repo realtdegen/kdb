@@ -1,4 +1,4 @@
-package com.timestored.kdb.examples.feedhandler;
+package kx.examples.feedhandler;
 
 import java.sql.Time;
 import java.util.ArrayList;

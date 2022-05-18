@@ -1,4 +1,4 @@
-package com.timestored.kdb.examples;
+package kx.examples;
 
 // q -p 5001 use q/c/jdbc.jar
 import java.sql.*;
