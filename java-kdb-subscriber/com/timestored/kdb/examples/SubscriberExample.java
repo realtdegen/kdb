@@ -13,11 +13,12 @@ public class SubscriberExample {
 	public SubscriberExample(final String host, final int port) {
 		try {
 			c con = new c(host, port);
-			con.k(".u.sub[`trade;`]"); 
+			//con.k(".u.sub["trade;"]");
+			con.ks(".u.sub","trade","GOOG");
 			
 			while (true) {
 				try {
-					Object r = con.k();
+					Object r = con.ks();
 					if (r != null) {
 						Object[] data = (Object[]) r;
 
